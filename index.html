@@ -25,64 +25,56 @@
     </head>
 <body>
     <header>
-        <div class="container-grid full-height">
+        <div class="container-fluid full-height">
             <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">LOGO</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto mt-5">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="#">Servicos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="#">Precos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="#">Contato</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="#">LINK</a>
-                      </li>
-                    </ul>
-                  </div>
+                <div class="container">
+                    <a class="navbar-brand" href="#">LOGO</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link active" href="#about">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#services">Serviços</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#tech">Tecnologias</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#contact">Contato</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">LINK</a></li>
+                        </ul>
+                    </div>
                 </div>
-              </nav>
-    <section>
-        <div class="container-grid">
-            <div class="row w-100 align-items-center">
-                <div class="col-6">
-                    <img src="./gallery/1af48695a71e068d9f880bbde3f2f385.jpg" alt="">
+            </nav>
+    
+            <section>
+                <div class="container-grid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6 col-12 text-center">
+                            <img src="./gallery/1af48695a71e068d9f880bbde3f2f385.jpg" class="img-fluid" alt="Imagem">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 text-center text-md-start intro">
+                            <h2 class="title-default-style">Mg Tech</h2>
+                            <p>Uma empresa preocupada com cada detalhe.</p>
+                            <a href="#services">
+                                <button type="button" class="btn btn-secondary btn-lg">Saiba Mais</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <h2 class="title-default-style">Mg Tech</h2>
-                    <p>We empower your business with cutting-edge technology solutions.</p>
-                    <button type="button" class="btn btn-secondary btn-lg">Secondary</button>
-                </div>
-            </div>
+            </section>
         </div>
-    </section>
     </header>
-</div>
 
     <!--DISCOVER-->
-    <section>
-        <div class="container-grid full-height text-white about">
-            <h2 class="title-default-style text-white text-center">Discover more about us</h2>
-            <p class="text-center">Learn about our mission, our journey, and our dedication to delivering quality.</p>
+    <section id="about">
+        <div class="container-grid full-height-screen text-white about">
+            <h2 class="title-default-style text-white text-center mb-10">Discover more about us</h2>
+            <p class="text-center mb-20">Learn about our mission, our journey, and our dedication to delivering quality.</p>
             <div class="container">
                 <div class="row rox-box w-100 align-items-center">
-                    <div class="box col-6 text-white border-secondary border-start">
+                    <div class="box col-lg-6 col-md-6 col-12 text-white border-secondary border-start">
                         <h2>Our story: Your success, our commitment</h2>
                         <p>Join mg tech on a journey where we stand as your reliable partner in achieving technological excellence. Our narrative is driven by a commitment to quality, expertly navigating the tech landscape to foster growth and innovation.</p>
-                        <button type="button" class="btn btn-secondary btn-lg">Secondary</button>
                     </div>
-                    <div class="box col-6 text-white border-secondary border-start">
+                    <div class="box col-lg-6 col-md-6 col-12 text-white border-secondary border-start">
                         <h2>Our mission: Elevating your experience with technology</h2>
                         <p>At mg tech, our mission is to enhance your business through dependable technological solutions. We are dedicated to providing innovative services tailored to your specific needs, ensuring your path to success is filled with endless opportunities.</p>
                     </div>
@@ -91,8 +83,8 @@
         </div>
     </section>
 
-        <!--SERVICES-->
-    <section>
+        <!--SERVICES
+    <section id="services">
             <div class="container full-height">
                 <div class="row w-100 align-items-center">
                     <div class="col-6">
@@ -132,9 +124,9 @@
             </div>
          </div>
 </section>
-        <!--END SERVICES-->
-    <section>
-        <!--John Perry-->
+        END SERVICES
+    <section id="tech">
+        John Perry
             <div class="container-grid full-height text-white about">
                 <div class="container">
                     <div class="row rox-box w-100 align-items-center">
@@ -146,9 +138,8 @@
                 </div>
              </div>
     </section>
-<!--FORM-->
-
-    <section>
+FORM
+    <section id="contact">
             <div class="container full-height">
                 <div class="row">
                     <h2 class="title-default-style text-center">Get in touch with us</h2>
@@ -183,11 +174,11 @@
             </div>
     </section>
 
-    <footer> <!--FOOTER-->
+    <footer> FOOTER
         <div class="container">
         <p>Todos os direitos reservados © MGTECH desde 2017</p>
     </footer>
-
+-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
