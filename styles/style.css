@@ -65,14 +65,9 @@ body {
     min-height: 100vh;
 }
 
-.full-height-screen .row{
+.full-height-screen .row, .full-height-screen .row img{
     min-height: 100vh;
 }
-
-.full-height-screen .row img{
-    min-height: 100vh;
-}
-
 
 
 .navbar {
