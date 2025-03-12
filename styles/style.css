@@ -41,22 +41,39 @@ body {
     color: var(--color-black);
 }
 
-
 .mb-5 {
     margin-bottom: 5rem;
 }
 
-.mb-20 {
-    margin-bottom: 20vmin;
+.mt-7{
+    margin-top: 7vmin;
 }
 
 .full-height {
-    min-height: 50vh; 
+    min-height: 80vh; 
+}
+
+.full-height .row{
+    min-height: 75vh;
+}
+
+.full-height .row img{
+    min-height: 70vh;
 }
 
 .full-height-screen{
     min-height: 100vh;
 }
+
+.full-height-screen .row{
+    min-height: 100vh;
+}
+
+.full-height-screen .row img{
+    min-height: 100vh;
+}
+
+
 
 .navbar {
     height: 25rem;
@@ -73,19 +90,19 @@ body {
 }
 
 .row img{
-    width: 100vmin;
-    height: 100vmin;
-    margin: 0;
-    padding: 0;
+    width: 100%;  
+    height: auto; 
+    object-fit: cover; 
     
-}
-
-.intro{
-    text-align: center;
 }
 
 .about{
     background-image: url(/gallery/blk_wallpaper.jpg);
+}
+
+.about h2:hover{
+    color: var(--color-orange);
+    cursor: pointer;
 }
 
 @media (max-width:799px){
@@ -116,9 +133,9 @@ body {
 
 @media (max-width: 600px) {
     .row img {
-        width: 100vw;  /* 100% da largura da tela */
-        height: 100vh; /* 100% da altura da tela */
-        object-fit: cover; /* Mantém a proporção da imagem, sem distorcer */
+        width: 100vw;  
+        height: 100vh; 
+        object-fit: cover; 
     }
 
     .intro {
