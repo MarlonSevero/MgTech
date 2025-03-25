@@ -45,6 +45,7 @@ body {
     margin-bottom: 5rem;
 }
 
+
 .mt-7{
     margin-top: 7vmin;
 }
@@ -98,6 +99,21 @@ body {
 .about h2:hover{
     color: var(--color-orange);
     cursor: pointer;
+}
+
+.input_form{
+    font-size: 1.5rem
+}
+
+footer{
+    background-image: url(/gallery/blk_wallpaper.jpg);
+}
+
+#footer .box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    min-height: 20vh;
 }
 
 @media (max-width:799px){
